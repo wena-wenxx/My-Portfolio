@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wena Rose Contiga | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Wena Rose Contiga</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="mobile-menu-icon" id="mobileMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 id="typewriter-name">Wena Rose N. Contiga</h1>
+                <p class="tagline">Frontend Developer & AI Enthusiast</p>
+                <p class="objective-text">Creating beautiful, functional, and user-centered digital experiences.
+                    Passionate about clean code, intuitive design, and emerging technologies.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary-btn pulse-animation">Get In Touch</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+                <div class="cta-section">
+                    <p class="cta-text">Open for new opportunities and collaborations</p>
+                    <a href="#contact" class="btn primary-btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content-grid">
+                <div class="about-image-col">
+                    <img src="wen.png" alt="Wena Rose N. Contiga - Profile Picture" class="profile-img">
+                </div>
+
+                <div class="about-info-col">
+                    <h3>Frontend Developer & Tech Enthusiast</h3>
+                    <div class="editable-container">
+                        <p class="about-description" id="aboutContent">
+                            I am a dedicated and detail-oriented frontend developer with a passion for creating engaging
+                            digital experiences. My core skills include strong time management and professional
+                            communication, allowing me to remain focused and productive in fast-paced environments. I
+                            specialize in translating innovative ideas into functional, aesthetically pleasing web
+                            interfaces using modern technologies. Currently expanding my expertise in AI and database
+                            management.
+                        </p>
+                        <button class="edit-btn" id="editAboutBtn">Edit</button>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <p class="stat-label">Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8</span>
+                            <p class="stat-label">Certifications</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <p class="stat-label">Work Experiences</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <p class="stat-label">Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section education-section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor in Information Technology</h3>
+                        <p class="education-institution">Caraga State University</p>
+                        <p class="education-period">2022 - Present</p>
+                        <p class="education-description">Currently pursuing a degree in Information Technology with
+                            focus on web development, database management, and artificial intelligence fundamentals.</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Secondary Education</h3>
+                        <p class="education-institution">Pedro D. Duncano National High School</p>
+                        <p class="education-period">2016 - 2022</p>
+                        <p class="education-description">Consistent honor student with active participation in student
+                            government and youth organizations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Marketing Assistant</h3>
+                        <p class="experience-company">Mira's Marketing Firm</p>
+                        <p class="experience-period">April 2025 - Present</p>
+                        <ul class="experience-description">
+                            <li>Assist in developing marketing strategies and campaigns</li>
+                            <li>Coordinate with team members to execute marketing initiatives</li>
+                            <li>Analyze market trends and consumer behavior</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Virtual Assistant & Video Editor</h3>
+                        <p class="experience-company">Rise Up Company</p>
+                        <p class="experience-period">2024 - 2025</p>
+                        <ul class="experience-description">
+                            <li>Managed GHL (Go High Level) platform for client management</li>
+                            <li>Created and edited video content for marketing purposes</li>
+                            <li>Provided virtual assistance services to clients</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Freelancer (Graphics & Virtual Assistant)</h3>
+                        <p class="experience-company">Creatives Company</p>
+                        <p class="experience-period">September 2023 - December 2023</p>
+                        <ul class="experience-description">
+                            <li>Created graphic designs for various marketing materials</li>
+                            <li>Provided virtual assistance services to multiple clients</li>
+                            <li>Managed social media accounts and content creation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Certifications</h2>
+
+            <div class="skills-certifications-grid">
+
+                <div class="skills-col">
+                    <h3 class="skills-title">Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Responsive Design</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">SQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">AI Fundamentals</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Web Development</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 0%;" data-level="80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications-col">
+                    <h3 class="certifications-title">Professional Certifications</h3>
+                    <div class="certifications-list">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Microsoft AI Course (Azure AI Fundamentals)</h4>
+                                <p class="cert-issuer">TESDA • July 2025</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Introduction to SQL</h4>
+                                <p class="cert-issuer">SoloLearn • February 2025</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Developing Sites for the Web</h4>
+                                <p class="cert-issuer">IBM SkillsBuild</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Web Development Basics</h4>
+                                <p class="cert-issuer">IBM SkillsBuild</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Introduction to HTML and CSS</h4>
+                                <p class="cert-issuer">IBM SkillsBuild</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Introduction to HTML</h4>
+                                <p class="cert-issuer">SoloLearn</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Introduction to CSS</h4>
+                                <p class="cert-issuer">SoloLearn</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div class="cert-info">
+                                <h4>Introduction to JavaScript</h4>
+                                <p class="cert-issuer">SoloLearn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section consolidated-section services-section-inner" id="services-inner">
+                <h3><i class="fas fa-handshake icon-small"></i> What I Offer</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-desktop icon-service"></i>
+                        <h3>Responsive Web Design</h3>
+                        <p>Building modern, mobile-first layouts that ensure seamless user experience across all devices
+                            and screen sizes.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fas fa-code icon-service"></i>
+                        <h3>Frontend Development</h3>
+                        <p>Writing clean, optimized, and semantic HTML5, CSS3, and modern JavaScript to bring designs to
+                            life with functional interactivity.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fas fa-palette icon-service"></i>
+                        <h3>UI/UX Implementation</h3>
+                        <p>Translating visual designs and wireframes into high-fidelity web pages, focusing on aesthetic
+                            appeal, accessibility, and intuitive user interaction.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section consolidated-section certifications-section-inner" id="certifications-inner">
+                <h3><i class="fas fa-award icon-small"></i> Certificates Gallery</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <a href="tesda wena.JPG" target="_blank" aria-label="View TESDA AI Certificate">
+                            <img src="tesda wena.JPG" alt="TESDA Microsoft AI Course Certificate"
+                                class="cert-thumbnail">
+                        </a>
+                        <h3>Azure AI Fundamentals</h3>
+                        <p class="issuer">TESDA • 2025</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="sql.jpg" target="_blank" aria-label="View SQL Certificate">
+                            <img src="sql.jpg" alt="SQL Certificate" class="cert-thumbnail">
+                        </a>
+                        <h3>Introduction to SQL</h3>
+                        <p class="issuer">SoloLearn • 2025</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="des c.JPG" target="_blank" aria-label="View Web Development Certificate">
+                            <img src="des c.JPG" alt="Developing Sites for the Web Certificate" class="cert-thumbnail">
+                        </a>
+                        <h3>Developing Sites for the Web</h3>
+                        <p class="issuer">IBM SkillsBuild</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="web dev.JPG" target="_blank" aria-label="View Web Dev Basics Certificate">
+                            <img src="web dev.JPG" alt="Web Development Basics Certificate" class="cert-thumbnail">
+                        </a>
+                        <h3>Web Development Basics</h3>
+                        <p class="issuer">IBM SkillsBuild</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="cert wena html.JPG" target="_blank" aria-label="View HTML/CSS Certificate">
+                            <img src="cert wena html.JPG" alt="HTML and CSS Certificate" class="cert-thumbnail">
+                        </a>
+                        <h3>HTML & CSS</h3>
+                        <p class="issuer">IBM SkillsBuild</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="htmlwena cert.pdf" target="_blank" aria-label="View HTML Certificate PDF">
+                            <img src="html wena.jpg" alt="HTML Certificate Thumbnail" class="cert-thumbnail">
+                        </a>
+                        <h3>Introduction to HTML</h3>
+                        <p class="issuer">SoloLearn</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="wena css cert.pdf" target="_blank" aria-label="View CSS Certificate PDF">
+                            <img src="wena css certt.jpg" alt="CSS Certificate Thumbnail" class="cert-thumbnail">
+                        </a>
+                        <h3>Introduction to CSS</h3>
+                        <p class="issuer">SoloLearn</p>
+                    </div>
+
+                    <div class="cert-card">
+                        <a href="js wena.pdf" target="_blank" aria-label="View JavaScript Certificate PDF">
+                            <img src="jsss.jpg" alt="JavaScript Certificate Thumbnail" class="cert-thumbnail">
+                        </a>
+                        <h3>Introduction to JavaScript</h3>
+                        <p class="issuer">SoloLearn</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="isis.JPG" alt="In-Sys-107 Inventory Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3>In-Sys-107</h3>
+                        <p>A comprehensive inventory management system with user authentication and modern UI design.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://wena-wenxx.github.io/In-Sys-107/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="tresm.JPG" alt="Tres Marias Team Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Tres Marias</h3>
+                        <p>A collaborative team project portfolio showcasing mission-driven software development with
+                            modern
+                            design principles.</p>
+                        <div class="project-links">
+                            <a href="https://wena-wenxx.github.io/TresM.-/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="safet.JPG" alt="SAFE-T Emergency Alert System">
+                    </div>
+                    <div class="project-content">
+                        <h3>SAFE-T Alert System</h3>
+                        <p>An emergency reporting system for Barangay Tiniwisan with user-friendly interface and alert
+                            features.</p>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/proto/k6lH29AykIxE2B0sL5Vuwb/Crime-Alert-System?node-id=2379-2&t=ntSOW2nCb0cF0DoM-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2379%3A2"
+                                target="_blank" class="project-link">
+                                <i class="fab fa-figma"></i> Figma Prototype
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-projects">
+                <p>Check out more projects on my GitHub account</p>
+                <a href="https://github.com/wena-wenxx" target="_blank" class="btn secondary-btn">
+                    <i class="fab fa-github"></i> View GitHub
+                </a>
+            </div>
+
+
+
+            <section class="section contact-section" id="contact">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+
+                    <div class="contact-grid">
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope icon-large"></i>
+                                <h4>Email</h4>
+                                <p>wenanacontiga@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt icon-large"></i>
+                                <h4>Phone</h4>
+                                <p>09353961566</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt icon-large"></i>
+                                <h4>Location</h4>
+                                <p>Butuan City, Agusan Del Norte</p>
+                            </div>
+
+                            <div class="social-links-about">
+                                <a href="https://www.linkedin.com/in/wena-rose-contiga-254b85380" target="_blank"
+                                    aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.facebook.com/wenana.contiga" target="_blank" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/nanariiee_?igsh=NTc4MTIwNjQ2YQ==" target="_blank"
+                                    aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/wena-wenxx" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-form-container">
+                            <form id="contactForm" class="contact-form">
+                                <h4 class="form-heading">Send A Message</h4>
+                                <div class="form-group">
+                                    <input type="text" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="social-links-footer">
+                        <a href="https://www.linkedin.com/in/wena-rose-contiga-254b85380" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/wenana.contiga" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nanariiee_?igsh=NTc4MTIwNjQ2YQ==" target="_blank"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/wena-wenxx" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="copyright">&copy; 2024 Wena Rose N. Contiga. All rights reserved.</p>
+                </div>
+            </footer>
+
+            <script src="script.js"></script>
+</body>
+
+</html>
